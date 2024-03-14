@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <% data.forEach(items => { %>
+  <article>
+    <h2><%= items.nom_item %></h2>
+    <img src="/assets/<%= items.image_item %>.png" alt="soupe à la tomate" />
+    <p>$<%= items.prix_item %></p>
+    <p><%= items.description_item %></p>
+    <a href="/addCart/<%= items.id_item %>">Ajouter au panier</a>
+  </article>
+  <% }) %>
+</div>

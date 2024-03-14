@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 1.8rem;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+div.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.wrapper a {
+  color: #fff;
+}
+div.wrapper article {
+  background: rgb(104, 96, 96);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  border: solid 1px;
+  margin: 10px;
+}
+div.wrapper article img {
+  width: 20%;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+form div {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+form input {
+  width: 100%;
+}
+form label {
+  position: absolute;
+  right: -5000px;
+}/*# sourceMappingURL=style.css.map */
